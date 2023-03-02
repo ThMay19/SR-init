@@ -7,8 +7,9 @@ Offical Codes for SR-init: AN INTERPRETABLE LAYER PRUNING METHOD
 ![image](https://github.com/huitang-zjut/SR-init/blob/main/img/visualization.png)
 
 # Useage
-To calculate the estimation accuracy:
+To calculate the SR-init result:
 
 ```python
 python get_estimation_accuracy.py
+python Draw_plt.py
 ```
