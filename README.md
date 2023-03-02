@@ -10,6 +10,5 @@ Offical Codes for SR-init: AN INTERPRETABLE LAYER PRUNING METHOD
 To calculate the estimation accuracy:
 
 ```python
-python get_estimation_accuracy.py --arch resnet56 --set cifar10 --num_classes 10 --random_seed 1 --evaluate
-
+python get_estimation_accuracy.py
 ```
