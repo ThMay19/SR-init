@@ -10,6 +10,6 @@ Offical Codes for SR-init: AN INTERPRETABLE LAYER PRUNING METHOD
 To calculate the SR-init result:
 
 ```python
-python get_estimation_accuracy.py
-python Draw_plt.py
+python get_estimation_accuracy.py --arch resnet56 --set cifar100 --num_classes 100 --random_seed 1 --evaluate --gpu 1
+python get_SRinit_plt.py --random_seed 1
 ```
