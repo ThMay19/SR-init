@@ -7,7 +7,7 @@ Offical Codes for SR-init: AN INTERPRETABLE LAYER PRUNING METHOD
 ![image](https://github.com/huitang-zjut/SR-init/blob/main/img/visualization.png)
 
 # Useage
-To calculate the SR-init result:
+To calculate the SR-init:
 
 ```python
 python get_estimation_accuracy.py --arch resnet56 --set cifar100 --num_classes 100 --random_seed 1 --evaluate --gpu 1
