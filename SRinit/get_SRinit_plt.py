@@ -24,8 +24,8 @@ def plot_estimation_accuracy():
     plt.rc('font', family='Times New Roman')
     total_list = [replaced_acc]
     best_list = [best_acc]
-    remove_layer = [3]
-    remain_layer = [51]
+    remove_layer = [0]
+    remain_layer = [54]
     name = ['ResNet110 on CIFAR-100']
     import heapq
     from matplotlib.ticker import MaxNLocator
